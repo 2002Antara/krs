@@ -1,0 +1,77 @@
+button {
+  background-color: black;
+  border-width: 0.0000001mm;
+  border-color: #fff;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 80px;
+  height: 30px;
+}
+body {
+  background-color: black;
+}
+button:hover {
+  background-color: rgb(194, 194, 211);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 20px;
+  background-color: black;
+}
+.logo {
+  font-size: 32px;
+}
+.menu {
+  display: flex;
+  gap: 2em;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.menu li:hover {
+  background-color: rgb(194, 194, 211);
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.mid {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+}
+.line {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+#button1 {
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  border-width: 0.0000001mm;
+  border-color: #fff;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#button2 {
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  border-width: 0.0000001mm;
+  border-color: #fff;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#container {
+  text-align: center;
+}
+#button1:hover {
+  background-color: blue;
+}
+#button2:hover {
+  background-color: blue;
+}
