@@ -1,0 +1,371 @@
+.home-banner1 {
+  height: 600px;
+  width: 1300px;
+}
+.madang {
+  height: 200px;
+  width: 200px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: white;
+  top: 100px;
+  height: 100px;
+  left: 10;
+  right: 10;
+}
+.menu {
+  display: flex;
+  gap: 2em;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.menu li:hover {
+  background-color: rgb(162, 249, 185);
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+button {
+  background-color: white;
+  border-width: 0.0000001mm;
+  border-color: rgb(55, 241, 130);
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  width: 110px;
+  height: 30px;
+  display: flex;
+}
+button:hover {
+  background-color: rgb(162, 249, 185);
+}
+.ru {
+  text-decoration: none;
+}
+.nav-links {
+  list-style: none;
+}
+.mid {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  color: rgb(16, 2, 2);
+  margin-top: 150px;
+  text-align: center;
+}
+.box {
+  border: 10px;
+  display: inline block;
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+.pic {
+  max-width: 100%;
+}
+.mid_portion {
+  font-family: "Courier New", Courier, monospace;
+  padding-left: 10%;
+  padding-right: 10%;
+  list-style-type: none;
+  columns: 3;
+  column-gap: 30%;
+}
+.pic2 {
+  padding-left: 2%;
+  padding-right: 2%;
+  list-style-type: none;
+  columns: 4;
+  column-gap: 2%;
+  text-align: justify;
+}
+.content-wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.img1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.img2 {
+  position: absolute;
+  top: 0px;
+}
+.text2 {
+  position: absolute;
+  top: 8px;
+  right: 70px;
+  font-family: "Courier New", Courier, monospace;
+}
+.text3 {
+  position: absolute;
+  display: flex;
+  top: 150px;
+  right: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+.text4 {
+  position: absolute;
+  display: flex;
+  top: 240px;
+  right: 90px;
+  font-family: "Courier New", Courier, monospace;
+}
+.text5 {
+  position: absolute;
+  display: flex;
+  top: 350px;
+  right: 220px;
+  font-family: "Courier New", Courier, monospace;
+}
+.button1 {
+  position: absolute;
+  display: flex;
+  top: 450px;
+  right: 120px;
+  font-family: "Courier New", Courier, monospace;
+}
+.text6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+#button2 {
+  width: 250px;
+  height: 30px;
+  border-color: rgb(50, 237, 50);
+  border-width: 0.0000001mm;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#button3 {
+  width: 300px;
+  height: 40px;
+  border-width: 0.0000001mm;
+  border-color: rgb(49, 238, 74);
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  margin: auto;
+  background-color: rgb(49, 238, 74);
+  justify-content: center;
+  align-items: center;
+}
+#button4 {
+  width: 290px;
+  height: 40px;
+  border-width: 0.0000001mm;
+  border-color: rgba(236, 221, 9, 0.815);
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  margin: auto;
+  background-color: rgba(236, 221, 9, 0.815);
+  justify-content: center;
+  align-items: center;
+}
+#button5 {
+  width: 290px;
+  height: 40px;
+  border-width: 0.0000001mm;
+  border-color: rgba(236, 221, 9, 0.815);
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  margin: auto;
+  background-color: rgb(49, 238, 74);
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 910px;
+  height: 410px;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-evenly;
+}
+#st-box {
+  float: left;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  border: solid lightgreen;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+#nd-box {
+  float: left;
+  width: 290px;
+  height: 400px;
+  background-color: white;
+  border: solid rgba(236, 221, 9, 0.815);
+  text-align: center;
+  justify-content: space-evenly;
+  margin-left: 120px;
+}
+#rd-box {
+  float: left;
+  width: 290px;
+  height: 400px;
+  background-color: white;
+  border: solid rgba(32, 236, 9, 0.815);
+  text-align: center;
+  justify-content: space-evenly;
+  margin-left: 850px;
+  margin-top: -400px;
+}
+.container2 {
+  position: relative;
+  display: inline-flex;
+}
+#f1 {
+  position: relative;
+}
+.pc1 {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin-left: 90px;
+}
+.txt10 {
+  position: absolute;
+  left: 150px;
+  color: white;
+  top: 80px;
+}
+#f2 {
+  position: relative;
+}
+.pc2 {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin-left: 90px;
+}
+#f3 {
+  position: relative;
+}
+.pc3 {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin-left: 90px;
+}
+#f4 {
+  position: relative;
+}
+.pc4 {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin-left: 90px;
+}
+.container3 {
+  position: relative;
+  display: inline-flex;
+}
+#f5 {
+  position: relative;
+}
+.pc5 {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin-left: 90px;
+}
+
+#f6 {
+  position: relative;
+}
+.pc6 {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin-left: 90px;
+}
+#f7 {
+  position: relative;
+}
+.pc7 {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin-left: 90px;
+}
+#f8 {
+  position: relative;
+}
+.pc8 {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin-left: 90px;
+}
+.picture1 {
+  width: 900px;
+  height: 300px;
+}
+.container4 {
+  text-align: center;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.row1 {
+  display: flex;
+  align-items: center;
+}
+
+.column1 {
+  flex: 33.33%;
+  padding: 5px;
+}
+.pull-left {
+  float: unset !important;
+  margin-left: 450px;
+}
+.block1 {
+  display: flex;
+}
+
+.b1 {
+  flex: 33.33%;
+  padding: 5px;
+}
+.b2 {
+  flex: 33.33%;
+  padding: 5px;
+}
+.b3 {
+  flex: 33.33%;
+  padding: 5px;
+}
+.b4 {
+  flex: 33.33%;
+  padding: 5px;
+}
+h1 {
+  color: white;
+}
+body {
+  overflow-x: hidden;
+}
+table {
+  width: 500px;
+}

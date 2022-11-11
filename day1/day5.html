@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="id1">MY HEADING</h1>
+    <button type="button">click me</button>
+    enter your name:<input type="text" id="frame" onchange="upperCase()" />;
+    <p>when you lived the input field a function would triggerd</p>
+    <div id="div1">
+      <p id="p1">this is a paragraph</p>
+      <p id="p2">this is a paragraph</p>
+    </div>
+    <div>
+      <button type="button1" onclick="back()">click me</button>
+    </div>
+    <script>
+      window.document.getElementById("header");
+      let w = window.innerWidth;
+      let h = window.innerHeight;
+      const parent = document.getElementById("div1");
+      const child = document.getElementById("p1");
+      var ele = document.getElementById("id1");
+      ele.addEventListener("click", change);
+      function change() {
+        document.getElementById("id1").style.color = "red";
+      }
+      function upperCase() {
+        const x = document.getElementById("frame");
+        x.value = x.value.toUpperCase();
+      }
+      function back() {}
+    </script>
+  </body>
+</html>
