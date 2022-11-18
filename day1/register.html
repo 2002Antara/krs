@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./register.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div>
+        <img
+          src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png"
+          alt=""
+          height="50px"
+        />
+      </div>
+      <div class="list">
+        <a class="links" href="index.html">Home</a>
+        <a class="links" href="index.html#about">About Us</a>
+        <a class="links" href="#footer">Contact Us</a>
+      </div>
+      <div class="btnn">
+        <a class="btnn1" href="">Login</a>
+        <a class="btnn2" href="">Register</a>
+      </div>
+    </div>
+    <div class="register">
+      <div class="register-box">
+        <h1><u>REGISTRATION FORM</u></h1>
+        <br />
+        <form id="myform">
+          <div class="user-box">
+            <label for="name"><b>Name:</b></label>
+            <input
+              class="form-input"
+              type="text"
+              name="username"
+              placeholder="enter your name"
+            />
+            <div class="error" style="color: red" id="nameErr"></div>
+            <br />
+          </div>
+          <br />
+          <div class="user-box">
+            <label for="phoneno"><b>Phone:</b></label>
+            <input
+              class="form-input"
+              type="text"
+              name="phoneno"
+              placeholder="enter your mobile number"
+            />
+            <div class="error" style="color: red" id="phoneErr"></div>
+            <br />
+          </div>
+          <br />
+          <div class="user-box">
+            <label for="email"><b>Email:</b></label>
+            <input
+              class="form-input"
+              type="text"
+              name="email"
+              placeholder="enter your email"
+            />
+            <div class="error" style="color: red" id="emailErr"></div>
+            <br />
+          </div>
+          <br />
+          <div class="user-box">
+            <label for="gender"><b>Gender:</b></label>
+            <input type="radio" name="gender" value="male" />Male
+            <input type="radio" name="gender" value="female" />Female
+            <div class="error" style="color: red" id="genderErr"></div>
+            <br />
+          </div>
+          <br />
+          <div class="user-box">
+            <label for="qualification"><b>Qualification:</b></label>
+            <input type="radio" name="qualification" value="student" />Student
+            <input type="radio" name="qualification" value="teacher" />Teacher
+            <div class="error" style="color: red" id="qualificationErr"></div>
+            <br />
+          </div>
+          <br />
+          <div class="user-box">
+            <label for="course"><b>Course:</b></label>
+            <br />
+            <br />
+            <input type="radio" name="course" value="web-development" />Web
+            Development
+            <input type="radio" name="course" value="App-development" />App
+            Development
+            <div class="error" style="color: red" id="courseErr"></div>
+            <br />
+          </div>
+          <br />
+          <div class="user-box">
+            <label for="country"><b>Country:</b></label>
+            <select name="country" id="country">
+              <option value="India">India</option>
+              <option value="USA">USA</option>
+              <option value="China">China</option>
+            </select>
+            <div class="error" style="color: red" id="countryErr"></div>
+            <br />
+          </div>
+          <br />
+          <div class="user-box">
+            <b>Conditions:</b>
+            <br />
+            <br />
+            <p>
+              1.Each User shall only register once.<br />
+              2.It is the user responsibility to make sure that she/he has
+              sufficient access to<br />
+              Internet to participate to the activities of the desired
+              extent.<br /><br />
+            </p>
+            <input
+              type="checkbox"
+              id="condition"
+              name="condition"
+              value="agree"
+            /><label for="condition"
+              >"I have read and agreed to all conditions"</label
+            ><br /><br />
+            <div class="error" style="color: red" id="conditionErr"></div>
+            <br />
+          </div>
+          <br />
+          <div class="user-box">
+            <label for="comments"><b>Comments:</b></label>
+            <textarea name="comments" id="comments">
+Enter your feedback here</textarea
+            >
+            <br />
+          </div>
+          <br />
+          <div>
+            <button type="button" id="savechanges" class="btn3">
+              Save Changes
+            </button>
+            <button type="button" class="btn3">Clear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     <!-- footer -->
+     <center><hr /></center>
+
+     <div class="footer" id="footer">
+       <div>
+         <img src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png" alt="" />
+       </div>
+       <div class="contact-links">
+         <div>
+           <h2>Sitemap</h2>
+           <h3>Home</h3>
+           <h3>About Us</h3>
+           <h3>Conatct Us</h3>
+         </div>
+         <div>
+           <h2>Contact Us</h2>
+           <h3>Instagram</h3>
+           <h3>Facebook</h3>
+           <h3>Youtube</h3>
+           <h3>Email</h3>
+         </div>
+       </div>
+     </div>
+     <script src="login.js"></script>
+   </body>
+ </html>
+ 
+  </body>
+</html>
