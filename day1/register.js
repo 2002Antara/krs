@@ -77,7 +77,7 @@ function validateform()
             emailErr = false;
            }
     }
-    if (gender == "") 
+    if (!gender.checked) 
      {
         printError("genderErr", "Please select your gender");
       } 
@@ -86,7 +86,7 @@ function validateform()
         printError("genderErr", "");
         genderErr = false;
        }
-    if(qualification=="")
+    if(!qualification.checked)
     {
         printError("qualificationErr","please choose an option")
     }
@@ -96,7 +96,7 @@ function validateform()
         qualificationErr = false;
         
     }
-    if(course=="")
+    if(!course.checked)
     {
         printError("courseErr","please choose an option")
     }
@@ -114,8 +114,8 @@ function validateform()
       {
         printError("countryErr", "");
         countryErr = false;
-      }
-    if(condition=="")
+    }
+    if(!condition.checked)
     {
         printError("conditionErr","please choose an option")
     }
