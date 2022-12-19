@@ -1,0 +1,50 @@
+.btn {
+  background-color: #650443;
+  margin-top: 50px;
+  margin-left: 170px;
+  color: aliceblue;
+  border-radius: 6px;
+}
+.btn:hover {
+  background-color: #f059bb;
+}
+.card {
+  background-color: rgb(237, 213, 180);
+  height: 150px;
+  width: 250px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  margin-left: 30px;
+}
+body {
+  background-color: rgb(246, 240, 231);
+}
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: aliceblue;
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  z-index: 10;
+  margin-top: -500px;
+  margin-left: 400px;
+}
+.cancel {
+  background-color: #650443;
+  margin-top: 70px;
+  color: aliceblue;
+  border-radius: 6px;
+}
+.confirm {
+  background-color: #650443;
+  margin-top: 70px;
+  margin-left: 170px;
+  color: aliceblue;
+  border-radius: 6px;
+}
+.confirm:hover {
+  background-color: #f059bb;
+}
+.cancel:hover {
+  background-color: #f059bb;
+}
